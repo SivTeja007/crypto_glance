@@ -1,0 +1,72 @@
+{
+  "name": "cryptocurrency-price-tracker",
+  "private": true,
+  "description": "Advanced Cryptocurrency Price Tracker - Real-time market data, analytics & news aggregation",
+  "version": "2.0.0",
+  "type": "module",
+  "author": {
+    "name": "Tejaswi & Team",
+    "email": "team@cryptotracker.dev"
+  },
+  "contributors": [
+    { "name": "Tejaswi", "role": "Project Lead & Frontend" },
+    { "name": "Siva", "role": "Frontend Architecture" },
+    { "name": "Sadhgun", "role": "API Integration" },
+    { "name": "Nuthan", "role": "UI/UX Design" },
+    { "name": "Tushar", "role": "Testing & Optimization" }
+  ],
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/darshangaikwad4114/Cryptocurrency-Price-Tracker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshangaikwad4114/Cryptocurrency-Price-Tracker.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "bitcoin",
+    "ethereum",
+    "price-tracker",
+    "react",
+    "crypto-dashboard"
+  ],
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-plugin-zoom": "^2.2.0",
+    "date-fns": "^2.30.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^14.3.1",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "jsdom": "^24.1.3",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "terser": "^5.43.1",
+    "vite": "^4.5.14",
+    "vitest": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  }
+}
